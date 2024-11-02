@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>Calculadora IMC</h1>
+    <h3>Por Ejemplo: Peso=60  Altura=1.50    </h3>
+    <input type="number" id="peso" placeholder="Ingresa tu peso (kg)" required>
+    <input type="number" id="altura" placeholder="Ingresa tu altura (m)" required>
+    <button id="calculateButton">Calcular IMC</button>
+    <div class="result" id="resultado"></div>
+
+    <div id="imageContainer">
+        <canvas id="canvas" width="600" height="400"></canvas>
+        <!--<button id="closeButton">Cerrar</button> -->
+    </div>
+
+    <!-- Actualiza aquí la fuente de audio -->
+    <audio id="audio" src="song.m4a" loop></audio>
+
+    <script src="Script.js"></script>
+</body>
+</html>
